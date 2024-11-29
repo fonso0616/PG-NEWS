@@ -1,0 +1,185 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+img {
+    max-width: 100%; /* Asegura que las imágenes no excedan el ancho de su contenedor */
+    height: auto; /* Mantiene la proporción de la imagen */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para darle un efecto elevado */
+    margin: 10px 0; /* Espacio alrededor de la imagen */
+}
+
+/* Estilo específico para imágenes en las noticias */
+.noticia-body img {
+    width: 500px; /* Tamaño fijo para las imágenes en las noticias */
+    height: auto; /* Mantiene la proporción */
+    float: left; /* Hace que el texto se envuelva alrededor de la imagen */
+    margin-right: 15px; /* Espacio entre la imagen y el texto */
+}
+
+.noticia:hover img {
+    transform: scale(1.05); /* Aumenta ligeramente el tamaño de la imagen al pasar el ratón */
+    transition: transform 0.3s ease; /* Transición suave */
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+header {
+    background-color: black;
+    color: #fff;
+    padding: 1em 0;
+    text-align: center;
+}
+
+.logo-titulo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    width: 50px;
+    height: auto;
+    margin-right: 10px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+header h1 {
+    margin: 0;
+}
+
+h1{
+    margin-left: 20px;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    margin-right: 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 15px;
+    transition: all 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #ff0000; 
+    color: white;
+    border-radius: 5px;
+}
+#contenedor-noticias {
+    display: grid;
+    gap: 20px;
+    margin: 20px;
+}
+
+.noticia {
+    position: relative;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.noticia h2 {
+    margin-top: 0;
+}
+
+.noticia a {
+    display: block;
+    text-align: right;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.noticia a:hover {
+    text-decoration: underline;
+}
+
+.noticia img {
+    max-width: 100%;
+    height: auto;
+}
+
+footer {
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position:static;
+    bottom: 0;
+    width: 100%;
+}
+.noticia-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    bottom: 10px;
+    left: 20px;
+    right: 20px;
+}
+
+/* Estilo para la "X" de eliminar noticia */
+.eliminar-noticia {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+/* Estilo para el enlace "Leer más" */
+.leer-mas {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.leer-mas:hover {
+    color: #0056b3;
+}
+
+/* Asegura que ambos elementos estén siempre en la parte inferior */
+.noticia:hover .noticia-footer {
+    transform: translateY(-5px);
+    transition: transform 0.3s ease;
+}
+button {
+    width: 100%; /* Ajusta el botón al tamaño del formulario */
+    padding: 10px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+button:hover {
+    background-color: darkred;
+    color: white;
+}

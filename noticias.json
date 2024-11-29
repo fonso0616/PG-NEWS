@@ -1,0 +1,37 @@
+[
+  {
+    "titulo": "Helene se acerca como huracán de categoría 4 a la costa de Florida",
+    "contenido": "El sureste de EE.UU. se encuentra en estado de máxima alerta. El huracán Helene subió este jueves a categoría 4 mientras se acerca a la costa del noroeste de Florida, informó el Centro Nacional de Huracanes de Estados Unidos (NHC, por sus siglas en inglés). Helene se mueve en dirección nor-noreste con vientos máximos sostenidos de 215 km/h, de acuerdo al NHC, que dijo en su último boletín que se trata de un huracán extremadamente peligroso",
+    "imagen": "images/clima11.jpeg",
+    "fecha": "2024-11-02",
+    "categoria": "clima"
+  },
+  {
+    "titulo": "Tigres del Licey persiguen el tricampeonato de la pelota invernal",
+    "contenido": "Los Tigres del Licey entran a los campos de entrenamiento con la mirada fija en sus objetivos: Conquistar la corona número 25 y completar el tricampeonato.El equipo azul dirigido por el manager Gilbert Gómez conoce muy bien el nivel de presión y expectativas que están depositadas en la franquicia por parte de la fanaticada.",
+    "imagen": "images/deporte11.jpg",
+    "fecha": "2024-11-04",
+    "categoria": "deportes"
+  },
+  {
+    "titulo": "20 peloteros de RD en Serie Divisional de postemporada 2024",
+    "contenido": "La Serie Divisional de postemporada 2024 de las Grandes Ligas arranca hoy sábado con la celebración de cuatro partidos a iniciar a partir de la 1:08 de la tarde. En ella, nuevamente, los dominicanos tendrán presencia en siete de los ocho equipos que estarán viendo acción.",
+    "imagen": "images/deporte12.jpg",
+    "fecha": "2024-11-04",
+    "categoria": "deportes"
+  },
+  {
+    "titulo": "El X de Elon Musk vale casi un 80% menos que cuando lo compró, según estimaciones de Fidelity",
+    "contenido": "La plataforma de medios sociales antes conocida como Twitter vale casi 80% menos que hace dos años cuando Elon Musk la compró, según estimaciones del gigante de inversiones Fidelity. X ya no cotiza públicamente después de que Musk desembolsara US$ 44.000 millones para hacerla privada en octubre de 2022. Sin embargo, Fidelity divulga lo que cree que es el valor de sus acciones de X, y esas estimaciones sirven como un termómetro seguido de cerca para la salud general de la empresa.",
+    "imagen": "images/tech12.jpeg",
+    "fecha": "2024-11-03",
+    "categoria": "tecnologia"
+  },
+  {
+    "titulo": "El clima para Republica Dominicana",
+    "contenido": "Para las primeras horas de la noche pronosticamos ocurrencias de lluvias en forma de chubascos que pueden ser moderados, tronadas y ráfagas de viento, que estarían afectando a sectores de Hato Mayor, La Altagracia, Monte Plata, La Vega, Duarte, Sánchez Ramírez, así como, Dajabón y Elías Piña. Prevemos que más adelante estas lluvias puedan afectar a El GSD, Peravia y Azua debido a los afectos de la vaguada que nos afecta. En el resto de las provincias dominará un cielo de nubes dispersas.",
+    "imagen": "images/clima2.jpg",
+    "fecha": "2024-11-02",
+    "categoria": "clima"
+  }
+]
