@@ -28,4 +28,4 @@ Para ejecutar este proyecto en tu máquina local, necesitas tener:
 1. **Clona el repositorio**:
 
    ```bash
-   git clone https://github.com/tu-usuario/tu-repo.git
+   git clone https://github.com/fonso0616/PG-NEWS.git
